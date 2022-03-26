@@ -79,3 +79,15 @@ p {
   text-transform: uppercase;
   color: #444444;
 }
+
+@media (max-width: 700px) {
+  section {
+    transform: scale(0.7);
+  }
+}
+
+@media (max-width: 450px) {
+  section {
+    transform: scale(0.45);
+  }
+}
